@@ -1,0 +1,5 @@
+filename,modality,gt_leak,pred_leak,metric,iou,confidence
+04_cylinder_seal_rgb_no_leak.jpg,rgb,False,True,FP,0.0,0.5109587907791138
+04_cylinder_seal_uv_no_leak.jpg,uv,False,True,FP,0.0,0.7664541602134705
+05_valve_manifold_rgb_leak.jpg,rgb,True,True,TP,0.0775664152181043,0.8436566591262817
+05_valve_manifold_uv_leak.jpg,uv,True,True,TP,0.06145866079849104,0.742003321647644

@@ -1,0 +1,50 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Start Flask Backend",
+            "type": "shell",
+            "command": "C:\\Users\\A30165\\venv_oil\\Scripts\\python.exe app.py",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "presentation": {
+                "group": "jcb-leak",
+                "panel": "new",
+                "clear": true
+            },
+            "isBackground": true,
+            "problemMatcher": []
+        },
+        {
+            "label": "Start React Frontend",
+            "type": "shell",
+            "command": "npm run dev",
+            "options": {
+                "cwd": "${workspaceFolder}/frontend",
+                "env": {
+                    "PATH": "C:\\Users\\A30165\\Downloads\\OIL LEAK-20260816T173631Z-1-001\\OIL LEAK\\node_portable\\node-v22.2.0-win-x64;${env:PATH}"
+                }
+            },
+            "presentation": {
+                "group": "jcb-leak",
+                "panel": "new",
+                "clear": true
+            },
+            "isBackground": true,
+            "problemMatcher": []
+        },
+        {
+            "label": "Start JCB Leak Dashboard (Both)",
+            "dependsOn": [
+                "Start Flask Backend",
+                "Start React Frontend"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}

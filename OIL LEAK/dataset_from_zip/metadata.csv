@@ -1,0 +1,203 @@
+filename,split,group,code,modality,class_id,class_name,source_reference,variant,mask_quality
+rgb_1_1_leak_v1.jpg,train,rgb1_1.1,1.1,rgb,1,hydraulic_oil_leak,rgb_collage_1,1,approximate synthetic weak mask
+rgb_1_1_leak_v2.jpg,train,rgb1_1.1,1.1,rgb,1,hydraulic_oil_leak,rgb_collage_1,2,approximate synthetic weak mask
+rgb_1_2_leak_v1.jpg,test,rgb1_1.2,1.2,rgb,1,hydraulic_oil_leak,rgb_collage_1,1,approximate synthetic weak mask
+rgb_1_2_leak_v2.jpg,test,rgb1_1.2,1.2,rgb,1,hydraulic_oil_leak,rgb_collage_1,2,approximate synthetic weak mask
+rgb_1_3_leak_v1.jpg,val,rgb1_1.3,1.3,rgb,1,hydraulic_oil_leak,rgb_collage_1,1,approximate synthetic weak mask
+rgb_1_3_leak_v2.jpg,val,rgb1_1.3,1.3,rgb,1,hydraulic_oil_leak,rgb_collage_1,2,approximate synthetic weak mask
+rgb_1_4_leak_v1.jpg,train,rgb1_1.4,1.4,rgb,1,hydraulic_oil_leak,rgb_collage_1,1,approximate synthetic weak mask
+rgb_1_4_leak_v2.jpg,train,rgb1_1.4,1.4,rgb,1,hydraulic_oil_leak,rgb_collage_1,2,approximate synthetic weak mask
+rgb_1_5_leak_v1.jpg,train,rgb1_1.5,1.5,rgb,1,hydraulic_oil_leak,rgb_collage_1,1,approximate synthetic weak mask
+rgb_1_5_leak_v2.jpg,train,rgb1_1.5,1.5,rgb,1,hydraulic_oil_leak,rgb_collage_1,2,approximate synthetic weak mask
+rgb_2_1_leak_v1.jpg,val,rgb1_2.1,2.1,rgb,1,hydraulic_oil_leak,rgb_collage_1,1,approximate synthetic weak mask
+rgb_2_1_leak_v2.jpg,val,rgb1_2.1,2.1,rgb,1,hydraulic_oil_leak,rgb_collage_1,2,approximate synthetic weak mask
+rgb_2_2_leak_v1.jpg,val,rgb1_2.2,2.2,rgb,1,hydraulic_oil_leak,rgb_collage_1,1,approximate synthetic weak mask
+rgb_2_2_leak_v2.jpg,val,rgb1_2.2,2.2,rgb,1,hydraulic_oil_leak,rgb_collage_1,2,approximate synthetic weak mask
+rgb_2_3_leak_v1.jpg,test,rgb1_2.3,2.3,rgb,1,hydraulic_oil_leak,rgb_collage_1,1,approximate synthetic weak mask
+rgb_2_3_leak_v2.jpg,test,rgb1_2.3,2.3,rgb,1,hydraulic_oil_leak,rgb_collage_1,2,approximate synthetic weak mask
+rgb_2_4_leak_v1.jpg,val,rgb1_2.4,2.4,rgb,1,hydraulic_oil_leak,rgb_collage_1,1,approximate synthetic weak mask
+rgb_2_4_leak_v2.jpg,val,rgb1_2.4,2.4,rgb,1,hydraulic_oil_leak,rgb_collage_1,2,approximate synthetic weak mask
+rgb_2_5_leak_v1.jpg,train,rgb1_2.5,2.5,rgb,1,hydraulic_oil_leak,rgb_collage_1,1,approximate synthetic weak mask
+rgb_2_5_leak_v2.jpg,train,rgb1_2.5,2.5,rgb,1,hydraulic_oil_leak,rgb_collage_1,2,approximate synthetic weak mask
+rgb_3_1_leak_v1.jpg,train,rgb1_3.1,3.1,rgb,1,hydraulic_oil_leak,rgb_collage_1,1,approximate synthetic weak mask
+rgb_3_1_leak_v2.jpg,train,rgb1_3.1,3.1,rgb,1,hydraulic_oil_leak,rgb_collage_1,2,approximate synthetic weak mask
+rgb_3_2_leak_v1.jpg,train,rgb1_3.2,3.2,rgb,1,hydraulic_oil_leak,rgb_collage_1,1,approximate synthetic weak mask
+rgb_3_2_leak_v2.jpg,train,rgb1_3.2,3.2,rgb,1,hydraulic_oil_leak,rgb_collage_1,2,approximate synthetic weak mask
+rgb_3_3_leak_v1.jpg,train,rgb1_3.3,3.3,rgb,1,hydraulic_oil_leak,rgb_collage_1,1,approximate synthetic weak mask
+rgb_3_3_leak_v2.jpg,train,rgb1_3.3,3.3,rgb,1,hydraulic_oil_leak,rgb_collage_1,2,approximate synthetic weak mask
+rgb_3_4_leak_v1.jpg,train,rgb1_3.4,3.4,rgb,1,hydraulic_oil_leak,rgb_collage_1,1,approximate synthetic weak mask
+rgb_3_4_leak_v2.jpg,train,rgb1_3.4,3.4,rgb,1,hydraulic_oil_leak,rgb_collage_1,2,approximate synthetic weak mask
+rgb_4_1_leak_v1.jpg,val,rgb1_4.1,4.1,rgb,1,hydraulic_oil_leak,rgb_collage_1,1,approximate synthetic weak mask
+rgb_4_1_leak_v2.jpg,val,rgb1_4.1,4.1,rgb,1,hydraulic_oil_leak,rgb_collage_1,2,approximate synthetic weak mask
+rgb_4_2_leak_v1.jpg,val,rgb1_4.2,4.2,rgb,1,hydraulic_oil_leak,rgb_collage_1,1,approximate synthetic weak mask
+rgb_4_2_leak_v2.jpg,val,rgb1_4.2,4.2,rgb,1,hydraulic_oil_leak,rgb_collage_1,2,approximate synthetic weak mask
+rgb_4_3_leak_v1.jpg,train,rgb1_4.3,4.3,rgb,1,hydraulic_oil_leak,rgb_collage_1,1,approximate synthetic weak mask
+rgb_4_3_leak_v2.jpg,train,rgb1_4.3,4.3,rgb,1,hydraulic_oil_leak,rgb_collage_1,2,approximate synthetic weak mask
+rgb_4_4_leak_v1.jpg,test,rgb1_4.4,4.4,rgb,1,hydraulic_oil_leak,rgb_collage_1,1,approximate synthetic weak mask
+rgb_4_4_leak_v2.jpg,test,rgb1_4.4,4.4,rgb,1,hydraulic_oil_leak,rgb_collage_1,2,approximate synthetic weak mask
+rgb_4_5_leak_v1.jpg,train,rgb1_4.5,4.5,rgb,1,hydraulic_oil_leak,rgb_collage_1,1,approximate synthetic weak mask
+rgb_4_5_leak_v2.jpg,train,rgb1_4.5,4.5,rgb,1,hydraulic_oil_leak,rgb_collage_1,2,approximate synthetic weak mask
+rgb_5_1_leak_v1.jpg,train,rgb1_5.1,5.1,rgb,1,hydraulic_oil_leak,rgb_collage_1,1,approximate synthetic weak mask
+rgb_5_1_leak_v2.jpg,train,rgb1_5.1,5.1,rgb,1,hydraulic_oil_leak,rgb_collage_1,2,approximate synthetic weak mask
+rgb_5_2_leak_v1.jpg,train,rgb1_5.2,5.2,rgb,1,hydraulic_oil_leak,rgb_collage_1,1,approximate synthetic weak mask
+rgb_5_2_leak_v2.jpg,train,rgb1_5.2,5.2,rgb,1,hydraulic_oil_leak,rgb_collage_1,2,approximate synthetic weak mask
+rgb_5_3_leak_v1.jpg,train,rgb1_5.3,5.3,rgb,1,hydraulic_oil_leak,rgb_collage_1,1,approximate synthetic weak mask
+rgb_5_3_leak_v2.jpg,train,rgb1_5.3,5.3,rgb,1,hydraulic_oil_leak,rgb_collage_1,2,approximate synthetic weak mask
+rgb_6_1_no_leak_v1.jpg,train,rgb1_6.1,6.1,rgb,0,no_leak,rgb_collage_1,1,empty
+rgb_6_1_no_leak_v2.jpg,train,rgb1_6.1,6.1,rgb,0,no_leak,rgb_collage_1,2,empty
+rgb_6_2_no_leak_v1.jpg,test,rgb1_6.2,6.2,rgb,0,no_leak,rgb_collage_1,1,empty
+rgb_6_2_no_leak_v2.jpg,test,rgb1_6.2,6.2,rgb,0,no_leak,rgb_collage_1,2,empty
+rgb_6_3_no_leak_v1.jpg,train,rgb1_6.3,6.3,rgb,0,no_leak,rgb_collage_1,1,empty
+rgb_6_3_no_leak_v2.jpg,train,rgb1_6.3,6.3,rgb,0,no_leak,rgb_collage_1,2,empty
+rgb_6_4_no_leak_v1.jpg,val,rgb1_6.4,6.4,rgb,0,no_leak,rgb_collage_1,1,empty
+rgb_6_4_no_leak_v2.jpg,val,rgb1_6.4,6.4,rgb,0,no_leak,rgb_collage_1,2,empty
+rgb_6_5_no_leak_v1.jpg,val,rgb1_6.5,6.5,rgb,0,no_leak,rgb_collage_1,1,empty
+rgb_6_5_no_leak_v2.jpg,val,rgb1_6.5,6.5,rgb,0,no_leak,rgb_collage_1,2,empty
+rgb_7_1_no_leak_v1.jpg,train,rgb1_7.1,7.1,rgb,0,no_leak,rgb_collage_1,1,empty
+rgb_7_1_no_leak_v2.jpg,train,rgb1_7.1,7.1,rgb,0,no_leak,rgb_collage_1,2,empty
+rgb_7_2_no_leak_v1.jpg,train,rgb1_7.2,7.2,rgb,0,no_leak,rgb_collage_1,1,empty
+rgb_7_2_no_leak_v2.jpg,train,rgb1_7.2,7.2,rgb,0,no_leak,rgb_collage_1,2,empty
+rgb_7_3_no_leak_v1.jpg,train,rgb1_7.3,7.3,rgb,0,no_leak,rgb_collage_1,1,empty
+rgb_7_3_no_leak_v2.jpg,train,rgb1_7.3,7.3,rgb,0,no_leak,rgb_collage_1,2,empty
+rgb_8_1_no_leak_v1.jpg,train,rgb1_8.1,8.1,rgb,0,no_leak,rgb_collage_1,1,empty
+rgb_8_1_no_leak_v2.jpg,train,rgb1_8.1,8.1,rgb,0,no_leak,rgb_collage_1,2,empty
+rgb_8_2_no_leak_v1.jpg,test,rgb1_8.2,8.2,rgb,0,no_leak,rgb_collage_1,1,empty
+rgb_8_2_no_leak_v2.jpg,test,rgb1_8.2,8.2,rgb,0,no_leak,rgb_collage_1,2,empty
+rgb_8_3_no_leak_v1.jpg,train,rgb1_8.3,8.3,rgb,0,no_leak,rgb_collage_1,1,empty
+rgb_8_3_no_leak_v2.jpg,train,rgb1_8.3,8.3,rgb,0,no_leak,rgb_collage_1,2,empty
+rgb_8_4_no_leak_v1.jpg,val,rgb1_8.4,8.4,rgb,0,no_leak,rgb_collage_1,1,empty
+rgb_8_4_no_leak_v2.jpg,val,rgb1_8.4,8.4,rgb,0,no_leak,rgb_collage_1,2,empty
+rgb_8_5_no_leak_v1.jpg,train,rgb1_8.5,8.5,rgb,0,no_leak,rgb_collage_1,1,empty
+rgb_8_5_no_leak_v2.jpg,train,rgb1_8.5,8.5,rgb,0,no_leak,rgb_collage_1,2,empty
+visible_H1_leak_v1.jpg,train,uvgroup_H1,H1,rgb,1,hydraulic_oil_leak,uv_collage,1,approximate synthetic weak mask
+visible_H1_leak_v2.jpg,train,uvgroup_H1,H1,rgb,1,hydraulic_oil_leak,uv_collage,2,approximate synthetic weak mask
+uv_H1_leak_v1.jpg,train,uvgroup_H1,H1,uv,1,hydraulic_oil_leak,uv_collage,1,UV color-derived
+uv_H1_leak_v2.jpg,train,uvgroup_H1,H1,uv,1,hydraulic_oil_leak,uv_collage,2,UV color-derived
+visible_H2_leak_v1.jpg,train,uvgroup_H2,H2,rgb,1,hydraulic_oil_leak,uv_collage,1,approximate synthetic weak mask
+visible_H2_leak_v2.jpg,train,uvgroup_H2,H2,rgb,1,hydraulic_oil_leak,uv_collage,2,approximate synthetic weak mask
+uv_H2_leak_v1.jpg,train,uvgroup_H2,H2,uv,1,hydraulic_oil_leak,uv_collage,1,UV color-derived
+uv_H2_leak_v2.jpg,train,uvgroup_H2,H2,uv,1,hydraulic_oil_leak,uv_collage,2,UV color-derived
+visible_H3_leak_v1.jpg,train,uvgroup_H3,H3,rgb,1,hydraulic_oil_leak,uv_collage,1,approximate synthetic weak mask
+visible_H3_leak_v2.jpg,train,uvgroup_H3,H3,rgb,1,hydraulic_oil_leak,uv_collage,2,approximate synthetic weak mask
+uv_H3_leak_v1.jpg,train,uvgroup_H3,H3,uv,1,hydraulic_oil_leak,uv_collage,1,UV color-derived
+uv_H3_leak_v2.jpg,train,uvgroup_H3,H3,uv,1,hydraulic_oil_leak,uv_collage,2,UV color-derived
+visible_H4_leak_v1.jpg,train,uvgroup_H4,H4,rgb,1,hydraulic_oil_leak,uv_collage,1,approximate synthetic weak mask
+visible_H4_leak_v2.jpg,train,uvgroup_H4,H4,rgb,1,hydraulic_oil_leak,uv_collage,2,approximate synthetic weak mask
+uv_H4_leak_v1.jpg,train,uvgroup_H4,H4,uv,1,hydraulic_oil_leak,uv_collage,1,UV color-derived
+uv_H4_leak_v2.jpg,train,uvgroup_H4,H4,uv,1,hydraulic_oil_leak,uv_collage,2,UV color-derived
+visible_H5_leak_v1.jpg,train,uvgroup_H5,H5,rgb,1,hydraulic_oil_leak,uv_collage,1,approximate synthetic weak mask
+visible_H5_leak_v2.jpg,train,uvgroup_H5,H5,rgb,1,hydraulic_oil_leak,uv_collage,2,approximate synthetic weak mask
+uv_H5_leak_v1.jpg,train,uvgroup_H5,H5,uv,1,hydraulic_oil_leak,uv_collage,1,UV color-derived
+uv_H5_leak_v2.jpg,train,uvgroup_H5,H5,uv,1,hydraulic_oil_leak,uv_collage,2,UV color-derived
+visible_F1_leak_v1.jpg,val,uvgroup_F1,F1,rgb,1,hydraulic_oil_leak,uv_collage,1,approximate synthetic weak mask
+visible_F1_leak_v2.jpg,val,uvgroup_F1,F1,rgb,1,hydraulic_oil_leak,uv_collage,2,approximate synthetic weak mask
+uv_F1_leak_v1.jpg,val,uvgroup_F1,F1,uv,1,hydraulic_oil_leak,uv_collage,1,UV color-derived
+uv_F1_leak_v2.jpg,val,uvgroup_F1,F1,uv,1,hydraulic_oil_leak,uv_collage,2,UV color-derived
+visible_F2_leak_v1.jpg,train,uvgroup_F2,F2,rgb,1,hydraulic_oil_leak,uv_collage,1,approximate synthetic weak mask
+visible_F2_leak_v2.jpg,train,uvgroup_F2,F2,rgb,1,hydraulic_oil_leak,uv_collage,2,approximate synthetic weak mask
+uv_F2_leak_v1.jpg,train,uvgroup_F2,F2,uv,1,hydraulic_oil_leak,uv_collage,1,UV color-derived
+uv_F2_leak_v2.jpg,train,uvgroup_F2,F2,uv,1,hydraulic_oil_leak,uv_collage,2,UV color-derived
+visible_F3_leak_v1.jpg,train,uvgroup_F3,F3,rgb,1,hydraulic_oil_leak,uv_collage,1,approximate synthetic weak mask
+visible_F3_leak_v2.jpg,train,uvgroup_F3,F3,rgb,1,hydraulic_oil_leak,uv_collage,2,approximate synthetic weak mask
+uv_F3_leak_v1.jpg,train,uvgroup_F3,F3,uv,1,hydraulic_oil_leak,uv_collage,1,UV color-derived
+uv_F3_leak_v2.jpg,train,uvgroup_F3,F3,uv,1,hydraulic_oil_leak,uv_collage,2,UV color-derived
+visible_F4_leak_v1.jpg,train,uvgroup_F4,F4,rgb,1,hydraulic_oil_leak,uv_collage,1,approximate synthetic weak mask
+visible_F4_leak_v2.jpg,train,uvgroup_F4,F4,rgb,1,hydraulic_oil_leak,uv_collage,2,approximate synthetic weak mask
+uv_F4_leak_v1.jpg,train,uvgroup_F4,F4,uv,1,hydraulic_oil_leak,uv_collage,1,UV color-derived
+uv_F4_leak_v2.jpg,train,uvgroup_F4,F4,uv,1,hydraulic_oil_leak,uv_collage,2,UV color-derived
+visible_F5_leak_v1.jpg,train,uvgroup_F5,F5,rgb,1,hydraulic_oil_leak,uv_collage,1,approximate synthetic weak mask
+visible_F5_leak_v2.jpg,train,uvgroup_F5,F5,rgb,1,hydraulic_oil_leak,uv_collage,2,approximate synthetic weak mask
+uv_F5_leak_v1.jpg,train,uvgroup_F5,F5,uv,1,hydraulic_oil_leak,uv_collage,1,UV color-derived
+uv_F5_leak_v2.jpg,train,uvgroup_F5,F5,uv,1,hydraulic_oil_leak,uv_collage,2,UV color-derived
+visible_P1_leak_v1.jpg,train,uvgroup_P1,P1,rgb,1,hydraulic_oil_leak,uv_collage,1,approximate synthetic weak mask
+visible_P1_leak_v2.jpg,train,uvgroup_P1,P1,rgb,1,hydraulic_oil_leak,uv_collage,2,approximate synthetic weak mask
+uv_P1_leak_v1.jpg,train,uvgroup_P1,P1,uv,1,hydraulic_oil_leak,uv_collage,1,UV color-derived
+uv_P1_leak_v2.jpg,train,uvgroup_P1,P1,uv,1,hydraulic_oil_leak,uv_collage,2,UV color-derived
+visible_P2_leak_v1.jpg,train,uvgroup_P2,P2,rgb,1,hydraulic_oil_leak,uv_collage,1,approximate synthetic weak mask
+visible_P2_leak_v2.jpg,train,uvgroup_P2,P2,rgb,1,hydraulic_oil_leak,uv_collage,2,approximate synthetic weak mask
+uv_P2_leak_v1.jpg,train,uvgroup_P2,P2,uv,1,hydraulic_oil_leak,uv_collage,1,UV color-derived
+uv_P2_leak_v2.jpg,train,uvgroup_P2,P2,uv,1,hydraulic_oil_leak,uv_collage,2,UV color-derived
+visible_P3_leak_v1.jpg,val,uvgroup_P3,P3,rgb,1,hydraulic_oil_leak,uv_collage,1,approximate synthetic weak mask
+visible_P3_leak_v2.jpg,val,uvgroup_P3,P3,rgb,1,hydraulic_oil_leak,uv_collage,2,approximate synthetic weak mask
+uv_P3_leak_v1.jpg,val,uvgroup_P3,P3,uv,1,hydraulic_oil_leak,uv_collage,1,UV color-derived
+uv_P3_leak_v2.jpg,val,uvgroup_P3,P3,uv,1,hydraulic_oil_leak,uv_collage,2,UV color-derived
+visible_P4_leak_v1.jpg,train,uvgroup_P4,P4,rgb,1,hydraulic_oil_leak,uv_collage,1,approximate synthetic weak mask
+visible_P4_leak_v2.jpg,train,uvgroup_P4,P4,rgb,1,hydraulic_oil_leak,uv_collage,2,approximate synthetic weak mask
+uv_P4_leak_v1.jpg,train,uvgroup_P4,P4,uv,1,hydraulic_oil_leak,uv_collage,1,UV color-derived
+uv_P4_leak_v2.jpg,train,uvgroup_P4,P4,uv,1,hydraulic_oil_leak,uv_collage,2,UV color-derived
+visible_C1_leak_v1.jpg,train,uvgroup_C1,C1,rgb,1,hydraulic_oil_leak,uv_collage,1,approximate synthetic weak mask
+visible_C1_leak_v2.jpg,train,uvgroup_C1,C1,rgb,1,hydraulic_oil_leak,uv_collage,2,approximate synthetic weak mask
+uv_C1_leak_v1.jpg,train,uvgroup_C1,C1,uv,1,hydraulic_oil_leak,uv_collage,1,UV color-derived
+uv_C1_leak_v2.jpg,train,uvgroup_C1,C1,uv,1,hydraulic_oil_leak,uv_collage,2,UV color-derived
+visible_C2_leak_v1.jpg,train,uvgroup_C2,C2,rgb,1,hydraulic_oil_leak,uv_collage,1,approximate synthetic weak mask
+visible_C2_leak_v2.jpg,train,uvgroup_C2,C2,rgb,1,hydraulic_oil_leak,uv_collage,2,approximate synthetic weak mask
+uv_C2_leak_v1.jpg,train,uvgroup_C2,C2,uv,1,hydraulic_oil_leak,uv_collage,1,UV color-derived
+uv_C2_leak_v2.jpg,train,uvgroup_C2,C2,uv,1,hydraulic_oil_leak,uv_collage,2,UV color-derived
+visible_C3_leak_v1.jpg,train,uvgroup_C3,C3,rgb,1,hydraulic_oil_leak,uv_collage,1,approximate synthetic weak mask
+visible_C3_leak_v2.jpg,train,uvgroup_C3,C3,rgb,1,hydraulic_oil_leak,uv_collage,2,approximate synthetic weak mask
+uv_C3_leak_v1.jpg,train,uvgroup_C3,C3,uv,1,hydraulic_oil_leak,uv_collage,1,UV color-derived
+uv_C3_leak_v2.jpg,train,uvgroup_C3,C3,uv,1,hydraulic_oil_leak,uv_collage,2,UV color-derived
+visible_C4_leak_v1.jpg,train,uvgroup_C4,C4,rgb,1,hydraulic_oil_leak,uv_collage,1,approximate synthetic weak mask
+visible_C4_leak_v2.jpg,train,uvgroup_C4,C4,rgb,1,hydraulic_oil_leak,uv_collage,2,approximate synthetic weak mask
+uv_C4_leak_v1.jpg,train,uvgroup_C4,C4,uv,1,hydraulic_oil_leak,uv_collage,1,UV color-derived
+uv_C4_leak_v2.jpg,train,uvgroup_C4,C4,uv,1,hydraulic_oil_leak,uv_collage,2,UV color-derived
+visible_C5_leak_v1.jpg,test,uvgroup_C5,C5,rgb,1,hydraulic_oil_leak,uv_collage,1,approximate synthetic weak mask
+visible_C5_leak_v2.jpg,test,uvgroup_C5,C5,rgb,1,hydraulic_oil_leak,uv_collage,2,approximate synthetic weak mask
+uv_C5_leak_v1.jpg,test,uvgroup_C5,C5,uv,1,hydraulic_oil_leak,uv_collage,1,UV color-derived
+uv_C5_leak_v2.jpg,test,uvgroup_C5,C5,uv,1,hydraulic_oil_leak,uv_collage,2,UV color-derived
+visible_V1_leak_v1.jpg,val,uvgroup_V1,V1,rgb,1,hydraulic_oil_leak,uv_collage,1,approximate synthetic weak mask
+visible_V1_leak_v2.jpg,val,uvgroup_V1,V1,rgb,1,hydraulic_oil_leak,uv_collage,2,approximate synthetic weak mask
+uv_V1_leak_v1.jpg,val,uvgroup_V1,V1,uv,1,hydraulic_oil_leak,uv_collage,1,UV color-derived
+uv_V1_leak_v2.jpg,val,uvgroup_V1,V1,uv,1,hydraulic_oil_leak,uv_collage,2,UV color-derived
+visible_V2_leak_v1.jpg,train,uvgroup_V2,V2,rgb,1,hydraulic_oil_leak,uv_collage,1,approximate synthetic weak mask
+visible_V2_leak_v2.jpg,train,uvgroup_V2,V2,rgb,1,hydraulic_oil_leak,uv_collage,2,approximate synthetic weak mask
+uv_V2_leak_v1.jpg,train,uvgroup_V2,V2,uv,1,hydraulic_oil_leak,uv_collage,1,UV color-derived
+uv_V2_leak_v2.jpg,train,uvgroup_V2,V2,uv,1,hydraulic_oil_leak,uv_collage,2,UV color-derived
+visible_V3_leak_v1.jpg,train,uvgroup_V3,V3,rgb,1,hydraulic_oil_leak,uv_collage,1,approximate synthetic weak mask
+visible_V3_leak_v2.jpg,train,uvgroup_V3,V3,rgb,1,hydraulic_oil_leak,uv_collage,2,approximate synthetic weak mask
+uv_V3_leak_v1.jpg,train,uvgroup_V3,V3,uv,1,hydraulic_oil_leak,uv_collage,1,UV color-derived
+uv_V3_leak_v2.jpg,train,uvgroup_V3,V3,uv,1,hydraulic_oil_leak,uv_collage,2,UV color-derived
+visible_N1_no_leak_v1.jpg,train,uvgroup_N1,N1,rgb,0,no_leak,uv_collage,1,empty
+visible_N1_no_leak_v2.jpg,train,uvgroup_N1,N1,rgb,0,no_leak,uv_collage,2,empty
+uv_N1_no_leak_v1.jpg,train,uvgroup_N1,N1,uv,0,no_leak,uv_collage,1,empty
+uv_N1_no_leak_v2.jpg,train,uvgroup_N1,N1,uv,0,no_leak,uv_collage,2,empty
+visible_N2_no_leak_v1.jpg,val,uvgroup_N2,N2,rgb,0,no_leak,uv_collage,1,empty
+visible_N2_no_leak_v2.jpg,val,uvgroup_N2,N2,rgb,0,no_leak,uv_collage,2,empty
+uv_N2_no_leak_v1.jpg,val,uvgroup_N2,N2,uv,0,no_leak,uv_collage,1,empty
+uv_N2_no_leak_v2.jpg,val,uvgroup_N2,N2,uv,0,no_leak,uv_collage,2,empty
+visible_N3_no_leak_v1.jpg,train,uvgroup_N3,N3,rgb,0,no_leak,uv_collage,1,empty
+visible_N3_no_leak_v2.jpg,train,uvgroup_N3,N3,rgb,0,no_leak,uv_collage,2,empty
+uv_N3_no_leak_v1.jpg,train,uvgroup_N3,N3,uv,0,no_leak,uv_collage,1,empty
+uv_N3_no_leak_v2.jpg,train,uvgroup_N3,N3,uv,0,no_leak,uv_collage,2,empty
+visible_N4_no_leak_v1.jpg,train,uvgroup_N4,N4,rgb,0,no_leak,uv_collage,1,empty
+visible_N4_no_leak_v2.jpg,train,uvgroup_N4,N4,rgb,0,no_leak,uv_collage,2,empty
+uv_N4_no_leak_v1.jpg,train,uvgroup_N4,N4,uv,0,no_leak,uv_collage,1,empty
+uv_N4_no_leak_v2.jpg,train,uvgroup_N4,N4,uv,0,no_leak,uv_collage,2,empty
+visible_N5_no_leak_v1.jpg,train,uvgroup_N5,N5,rgb,0,no_leak,uv_collage,1,empty
+visible_N5_no_leak_v2.jpg,train,uvgroup_N5,N5,rgb,0,no_leak,uv_collage,2,empty
+uv_N5_no_leak_v1.jpg,train,uvgroup_N5,N5,uv,0,no_leak,uv_collage,1,empty
+uv_N5_no_leak_v2.jpg,train,uvgroup_N5,N5,uv,0,no_leak,uv_collage,2,empty
+visible_D1_no_leak_v1.jpg,train,uvgroup_D1,D1,rgb,0,no_leak,uv_collage,1,empty
+visible_D1_no_leak_v2.jpg,train,uvgroup_D1,D1,rgb,0,no_leak,uv_collage,2,empty
+uv_D1_no_leak_v1.jpg,train,uvgroup_D1,D1,uv,0,no_leak,uv_collage,1,empty
+uv_D1_no_leak_v2.jpg,train,uvgroup_D1,D1,uv,0,no_leak,uv_collage,2,empty
+visible_D2_no_leak_v1.jpg,train,uvgroup_D2,D2,rgb,0,no_leak,uv_collage,1,empty
+visible_D2_no_leak_v2.jpg,train,uvgroup_D2,D2,rgb,0,no_leak,uv_collage,2,empty
+uv_D2_no_leak_v1.jpg,train,uvgroup_D2,D2,uv,0,no_leak,uv_collage,1,empty
+uv_D2_no_leak_v2.jpg,train,uvgroup_D2,D2,uv,0,no_leak,uv_collage,2,empty
+visible_D3_no_leak_v1.jpg,val,uvgroup_D3,D3,rgb,0,no_leak,uv_collage,1,empty
+visible_D3_no_leak_v2.jpg,val,uvgroup_D3,D3,rgb,0,no_leak,uv_collage,2,empty
+uv_D3_no_leak_v1.jpg,val,uvgroup_D3,D3,uv,0,no_leak,uv_collage,1,empty
+uv_D3_no_leak_v2.jpg,val,uvgroup_D3,D3,uv,0,no_leak,uv_collage,2,empty
+visible_M1_no_leak_v1.jpg,train,uvgroup_M1,M1,rgb,0,no_leak,uv_collage,1,empty
+visible_M1_no_leak_v2.jpg,train,uvgroup_M1,M1,rgb,0,no_leak,uv_collage,2,empty
+uv_M1_no_leak_v1.jpg,train,uvgroup_M1,M1,uv,0,no_leak,uv_collage,1,empty
+uv_M1_no_leak_v2.jpg,train,uvgroup_M1,M1,uv,0,no_leak,uv_collage,2,empty
+visible_M2_no_leak_v1.jpg,train,uvgroup_M2,M2,rgb,0,no_leak,uv_collage,1,empty
+visible_M2_no_leak_v2.jpg,train,uvgroup_M2,M2,rgb,0,no_leak,uv_collage,2,empty
+uv_M2_no_leak_v1.jpg,train,uvgroup_M2,M2,uv,0,no_leak,uv_collage,1,empty
+uv_M2_no_leak_v2.jpg,train,uvgroup_M2,M2,uv,0,no_leak,uv_collage,2,empty
+visible_M3_no_leak_v1.jpg,train,uvgroup_M3,M3,rgb,0,no_leak,uv_collage,1,empty
+visible_M3_no_leak_v2.jpg,train,uvgroup_M3,M3,rgb,0,no_leak,uv_collage,2,empty
+uv_M3_no_leak_v1.jpg,train,uvgroup_M3,M3,uv,0,no_leak,uv_collage,1,empty
+uv_M3_no_leak_v2.jpg,train,uvgroup_M3,M3,uv,0,no_leak,uv_collage,2,empty

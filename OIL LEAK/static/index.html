@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JCB Hydraulic Leak Inspection POC</title>
+    <!-- Outfit Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="logo-area">
+                <span class="jcb-logo">JCB</span>
+                <h1 class="app-title">HYDRAULIC LEAK INSPECTION</h1>
+            </div>
+            <div class="system-status">
+                <span class="status-dot pulse green" id="model-status-dot"></span>
+                <span class="status-text" id="model-status-text">SYSTEM READY</span>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="app-main">
+            <!-- Left Side: Live Feed & Capture Control -->
+            <section class="panel feed-panel">
+                <div class="panel-header">
+                    <h2>LIVE VIEWPORT</h2>
+                    <span class="camera-indicator" id="camera-indicator">🔴 DISCONNECTED</span>
+                </div>
+                
+                <div class="viewport-wrapper">
+                    <!-- Live Stream -->
+                    <video id="webcam" autoplay playsinline class="feed-element"></video>
+                    <!-- Fallback placeholder when webcam is disconnected -->
+                    <div id="feed-placeholder" class="feed-placeholder active">
+                        <div class="placeholder-icon">📷</div>
+                        <p>Webcam disconnected or permission denied</p>
+                        <p class="subtext">Use fallback file upload below to test inference</p>
+                    </div>
+                    <!-- Scanning scanline laser overlay -->
+                    <div id="scanline" class="scanline"></div>
+                </div>
+
+                <div class="controls-container">
+                    <div class="control-row">
+                        <span class="control-label">INSPECTION MODALITY</span>
+                        <div class="mode-selector">
+                            <button id="mode-rgb" class="mode-btn active" data-mode="rgb">VISIBLE / RGB</button>
+                            <button id="mode-uv" class="mode-btn" data-mode="uv">UV LIGHT</button>
+                        </div>
+                    </div>
+
+                    <div class="control-row">
+                        <div class="action-buttons">
+                            <button id="btn-scan" class="btn btn-primary" disabled>SCAN</button>
+                            <button id="btn-clear" class="btn btn-secondary">CLEAR</button>
+                        </div>
+                    </div>
+
+                    <div class="control-row fallback-upload">
+                        <span class="control-label">FALLBACK FILE INSPECTOR</span>
+                        <div class="file-uploader">
+                            <label for="file-input" class="file-label">
+                                <span class="file-icon">📁</span> Select Image file (JPG/PNG)
+                            </label>
+                            <input type="file" id="file-input" accept="image/*" class="file-input">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Right Side: Inspection Results & Overlay -->
+            <section class="panel result-panel">
+                <div class="panel-header">
+                    <h2>INSPECTION RESULTS</h2>
+                </div>
+
+                <!-- Leak status card -->
+                <div class="status-card-container">
+                    <!-- Default state: Ready -->
+                    <div id="status-card-ready" class="status-card ready active">
+                        <div class="card-icon">⚡</div>
+                        <div class="card-details">
+                            <h3>AWAITING SCAN</h3>
+                            <p>Position component and click SCAN to analyze.</p>
+                        </div>
+                    </div>
+
+                    <!-- Leak Detected: Red -->
+                    <div id="status-card-leak" class="status-card leak">
+                        <div class="card-icon">🔴</div>
+                        <div class="card-details">
+                            <h3>HYDRAULIC LEAK DETECTED</h3>
+                            <p>Immediate maintenance required.</p>
+                        </div>
+                    </div>
+
+                    <!-- No Leak: Green -->
+                    <div id="status-card-noleak" class="status-card noleak">
+                        <div class="card-icon">🟢</div>
+                        <div class="card-details">
+                            <h3>NO LEAK DETECTED</h3>
+                            <p>Component is clean and sealed.</p>
+                        </div>
+                    </div>
+
+                    <!-- Review Required: Yellow -->
+                    <div id="status-card-review" class="status-card review">
+                        <div class="card-icon">🟡</div>
+                        <div class="card-details">
+                            <h3>REVIEW REQUIRED</h3>
+                            <p>Possible leak detected below confidence threshold.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Threshold & Metadata Info -->
+                <div class="results-metadata">
+                    <div class="metadata-grid">
+                        <div class="meta-item">
+                            <span class="meta-label">CONFIDENCE</span>
+                            <span class="meta-value tech-value" id="res-confidence">-- %</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">MODALITY</span>
+                            <span class="meta-value" id="res-mode">--</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">DETECTIONS</span>
+                            <span class="meta-value tech-value" id="res-detections">--</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">THRESHOLD</span>
+                            <span class="meta-value tech-value" id="res-threshold">50%</span>
+                        </div>
+                    </div>
+
+                    <!-- Slider to adjust confidence threshold -->
+                    <div class="threshold-slider-container">
+                        <div class="slider-header">
+                            <span class="slider-label">CONFIDENCE DECISION THRESHOLD</span>
+                            <span class="slider-value" id="threshold-val">0.50</span>
+                        </div>
+                        <input type="range" id="threshold" min="0.25" max="0.95" step="0.05" value="0.50" class="threshold-slider">
+                    </div>
+                </div>
+
+                <!-- Processed result image overlay -->
+                <div class="result-viewport-wrapper">
+                    <div id="result-loading" class="result-loading">
+                        <div class="spinner"></div>
+                        <p>ANALYZING FRAME...</p>
+                    </div>
+                    <img id="result-image" class="result-image" alt="Inspection result display">
+                    <div id="result-placeholder" class="result-placeholder active">
+                        <div class="blueprint-graphic">
+                            <div class="circle pulse"></div>
+                            <div class="nozzle"></div>
+                            <div class="hose-line"></div>
+                        </div>
+                        <p>Inference visualization will overlay here</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
